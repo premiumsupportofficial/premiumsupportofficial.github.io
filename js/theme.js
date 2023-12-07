@@ -72,17 +72,13 @@ $("body").scrollspy({
 // Wait for window load
 $(window).load(function () {
   // Animate loader off screen
-  $(".page-loader").fadeOut(10000);
+  $(".page-loader").fadeOut(800);
 });
-
-////////////////////////////////////////////////////
-// OWL Carousel: http://owlgraphic.com/owlcarousel
-////////////////////////////////////////////////////
 
 // Intro text carousel
 $("#owl-intro-text").owlCarousel({
   singleItem: true,
-  autoPlay: 3000,
+  autoPlay: 1000,
   stopOnHover: true,
   navigation: false,
   navigationText: false,
