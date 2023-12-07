@@ -78,7 +78,7 @@ $(window).load(function () {
 // Intro text carousel
 $("#owl-intro-text").owlCarousel({
   singleItem: true,
-  autoPlay: 1000,
+  autoPlay: 3000,
   stopOnHover: true,
   navigation: false,
   navigationText: false,
