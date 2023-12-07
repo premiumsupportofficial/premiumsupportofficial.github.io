@@ -72,7 +72,7 @@ $("body").scrollspy({
 // Wait for window load
 $(window).load(function () {
   // Animate loader off screen
-  $(".page-loader").fadeOut(100);
+  $(".page-loader").fadeOut(10000);
 });
 
 ////////////////////////////////////////////////////
