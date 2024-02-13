@@ -11,6 +11,9 @@
       name="description"
       content="Special Subscription Offers"
     />
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="floating-wpp.min.js"></script>
+    <link rel="stylesheet" href="floating-wpp.min.css">
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -792,5 +795,13 @@
 
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
+    <div id="myDiv"></div>
   </body>
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '5491133359850'
+    });
+  });
+</script>
 </html>
