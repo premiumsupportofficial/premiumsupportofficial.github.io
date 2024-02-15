@@ -1260,3 +1260,28 @@ a[data-media="node"] img {
   height: 100%;
   padding: 0;
 }
+
+footer {
+  background-color: #f8f9fa; /* Footer background color */
+  padding: 20px 0; /* Adjust padding as needed */
+  text-align: center; /* Center-align text */
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.logo img {
+  height: 30px; /* Adjust logo height as needed */
+}
+
+.footer-text p {
+  margin: 0; /* Remove default margin */
+}
+
