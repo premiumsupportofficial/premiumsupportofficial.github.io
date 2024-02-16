@@ -72,7 +72,7 @@ $("body").scrollspy({
 // Wait for window load
 $(window).load(function () {
   // Animate loader off screen
-  $(".page-loader").fadeOut(10);
+  $(".page-loader").fadeOut(1);
 });
 
 // Intro text carousel
