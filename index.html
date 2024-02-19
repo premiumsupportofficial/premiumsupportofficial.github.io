@@ -571,10 +571,20 @@
                   <div class="rotate-box-info">
                     <h4>Lanka QR</h4>
                     <p>Valids Only Via Sri Lankan Banking Apps</p>
-                  </div>
-                  <div class="rotate-box-info">
-                    <a href="https://premiumsupportofficial.github.io/QRpay" style="color: rgb(188, 232, 122); font-weight: bold; position: relative; top: -20px !important;">---See QR Code---</a>
-                  </div>
+                    <span style="position: relative; top: -20px;">
+                        <a id="qrCodeLink" href="https://premiumsupportofficial.github.io/QRpay" style="color: rgb(188, 232, 122); font-weight: bold; display: none;">See QR Code</a>
+                        <button onclick="showQRCode()" style="position: relative; top: -20px;">Show QR Code</button>
+                    </span>
+                </div>
+                
+                <script>
+                    function showQRCode() {
+                        // Get the URL from the anchor tag
+                        var qrCodeUrl = document.getElementById("qrCodeLink").href;
+                        // Navigate to the URL
+                        window.location.href = qrCodeUrl;
+                    }
+                </script>
                 </a>
               </div>
 
