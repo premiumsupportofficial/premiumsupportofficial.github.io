@@ -45,6 +45,15 @@
 
     <!-- Skin CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript">
+        // Function to disable right-click event
+        function disableRightClick(event) {
+            // Prevent the default context menu
+            event.preventDefault();
+        }
+        // Add event listener for the 'contextmenu' event
+        document.addEventListener('contextmenu', disableRightClick);
+    </script>
 
   </head>
 
