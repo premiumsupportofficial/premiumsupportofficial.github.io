@@ -1,807 +1,847 @@
 <!DOCTYPE html>
-
-<html lang="en-US">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="img/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== HTML META TAGS ===========-->
     <title>Premium Support</title>
-    <script src="js/spotlight.bundle.js"></script>
     <meta
       name="description"
-      content="Special Subscription Offers"
+      content="Customer Satisfaction is Our Goal."
     />
 
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--========== FAVICON ===========-->
+    <link rel="icon" href="./assets/svg/logo.svg" type="image/svg+xml" />
 
-    <!-- Google Fonts  -->
+    <!--========== GOOGLE FONTS ===========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="http://fonts.googleapis.com/css?family=Roboto:400,700,500"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
-      type="text/css"
     />
-    <!-- Body font -->
+
+    <!--========== BOX ICONS ===========-->
     <link
-      href="http://fonts.googleapis.com/css?family=Lato:300,400"
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
-      type="text/css"
     />
-    <!-- Navbar font -->
 
-    <!-- Libs and Plugins CSS -->
-    <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="inc/animations/css/animate.min.css" />
-    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"" />
-    <!-- Font Icons -->
-    <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css" />
-    <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css" />
-
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
-
-    <!-- Skin CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <!--========== CSS ===========-->
+    <link rel="preload" href="./assets/css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
     <script type="text/javascript">
         // Function to disable right-click event
         function disableRightClick(event) {
             // Prevent the default context menu
             event.preventDefault();
         }
+
         // Add event listener for the 'contextmenu' event
         document.addEventListener('contextmenu', disableRightClick);
     </script>
-
   </head>
-
-  <body data-spy="scroll" data-target="#main-navbar">
-    <div class="page-loader"></div>
-    <!-- Display loading image while page loads -->
-    <div class="body">
-      <!--========== BEGIN HEADER ==========-->
-      <header id="header" class="header-main">
-        <!-- Begin Navbar -->
-        <nav
-          id="main-navbar"
-          class="navbar navbar-default navbar-fixed-top"
-          role="navigation"
-        >
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand page-scroll" href="index.html">DJ</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div
-              class="collapse navbar-collapse"
-              id="bs-example-navbar-collapse-1"
-            >
-              <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="body">Home</a></li>
-
-                <li>
-                  <a class="page-scroll" href="#portfolio-section">Our Subscription Offers</a>
-                </li>
-
-                <li><a class="page-scroll" href="#about-section">HOW TO PAY & GET</a></li>
-                
-                <li>
-                  <a class="page-scroll" href="#social-section">Contact us</a>
-                </li>
-                <li>
-                  <a class="page-scroll" href="https://premiumsupportofficial.tech/MemberArea">Log In</a>
-                </li>
-              </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-          </div>
-          <!-- /.container -->
-        </nav>
-        <!-- End Navbar -->
-      </header>
-      <!-- ========= END HEADER =========-->
-
-      <!-- Begin text carousel intro section -->
-      <section
-        id="text-carousel-intro-section"
-        class="parallax"
-        data-stellar-background-ratio="0.5"
-        style="background-image: url(img/ibgn.webp)"
-      >
-        <div class="container">
-          <div class="caption text-center text-white" data-stellar-ratio="0.7">
-            <div id="owl-intro-text" class="owl-carousel">
-              <div class="item">
-                <h2>Welcome to Premium Support</h2>
-                <p style="color: rgb(238, 221, 38); font-size: 16px;">Your Reliable Subscription Offer Provider</p>
-                <div class="extra-space-l"></div>
-                <a
-                  class="btn btn-blank page-scroll""
-                  href="#porfolio_menu"
-                  target="_blank"
-                  role="button"
-                  >View More!</a
-                >
-              </div>
-              <div class="item">
-                <h2>Special Subscription Offers</h2>
-                <p style="color: rgb(238, 221, 38); font-size: 16px;">For More than 40+ Platforms</p>
-                <div class="extra-space-l"></div>
-                <a
-                  class="btn btn-blank page-scroll""
-                  href="#porfolio_menu"
-                  target="_blank"
-                  role="button"
-                  >View More!</a
-                >
-              </div>
-              <div class="item">
-                <h2>At Lowest Price</h2>
-                <p style="color: rgb(238, 221, 38); font-size: 16px;">With Warranty</p>
-                <div class="extra-space-l"></div>
-                <a
-                  class="btn btn-blank page-scroll""
-                  href="#about-section"
-                  target="_blank"
-                  role="button"
-                  >View More!</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- /.caption -->
+  <body>
+    <!--========== HEADER ===========-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav_box">
+          <a href="#home" class="nav_logo">
+            <img
+              src="./assets/svg/logo.svg"
+              width="44"
+              height="41"
+              alt="PlayStation Logo"
+            />
+            Premium Support : UNDER MAINTAINCE
+          </a>
         </div>
-        <!-- /.container -->
-        <a href="https://wa.me/94713675980" target="_blank">
-        <img src="img/whatsapp-icon.png" alt="WhatsApp" style="width: 80px; height: 80px;">
-        </a>
-      </section>
-      <!-- End text carousel intro section -->
-      
-      <!-- Begin Portfolio -->
-      <section id="portfolio-section" class="page bg-style1">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <!-- Start portfolio -->
-              <div class="portfolio">
-                <!-- Begin page header-->
-                <div class="page-header-wrapper">
-                  <div class="container">
-                    <div
-                      class="page-header-less text-center wow fadeInDown"
-                      data-wow-delay="0.4s"
-                    >
-                      <h2>Our Subscription Offers</h2>
-                      <div class="devider"></div>
-                      <p class="subtitle">Upgrade Your Own Account to Premium</p>
-                      <p class="subtitle">Via Claiming Discounts</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End page header-->
-
-                <!-- Start content area -->
-                <div class="portfoloi_content_area">
-                  <!-- Start categories -->
-                  <div class="portfolio_menu" id="filters">
-                    <ul>
-                      <li class="active_prot_menu">
-                        <a href="#porfolio_menu" data-filter="*">all</a>
-                      </li>
-                      <li>
-                        <a href="#porfolio_menu" data-filter=".engineering"
-                          >Professional development</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#porfolio_menu" data-filter=".appsDevelopment"
-                          >Design Tools</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#porfolio_menu" data-filter=".websites"
-                          >Background tools</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#porfolio_menu" data-filter=".GraphicDesign"
-                          >Shared Subscriptions</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- End categories -->
-
-                  <!-- Start portfolio content -->
-                  <div class="portfolio_content">
-                    <!-- Start row -->
-                    <div class="row"  id="portfolio">
-
-                      <!-- start col nmd-->
-                      <div class="col-xs-12 col-sm-4 engineering">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/nmd1.webp"
-                            data-description="Linkedin Premium All types of subscription offers are available."
-                          >
-                            <h4>LinkedIn Premium All types</h4>
-                            <img
-                              src="img/portfolio/lid-title.webp"
-                              alt="network monitoring device title"
-                            />
-                          </a>
-                          <div
-                            class="spotlight"
-                            data-src="img/portfolio/nm3.webp"
-                          ></div>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col nmd-->
-
-                      <!-- start col smart socket-->
-                      <div class="col-xs-12 col-sm-4 engineering">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/tli.webp"
-                            data-description="Cousera Plus Subscription your email"
-                          >
-                            <h4>Coursera Plus : $18</h4>
-                            <img
-                              src="img/stl.webp"
-                              alt="smart socket"
-                            />
-                          </a>
-                          <div
-                            class="spotlight"
-                            data-src="img/ss4.webp"
-                          ></div>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col smart socket-->
-
-                      <!-- start col screen printer-->
-                      <div class="col-xs-12 col-sm-4 engineering">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/engineering/asp-title.webp"
-                            data-description="GitHub Student Development Pack"
-                          >
-                            <h4> GitHub Student Dev. Pack</h4>
-                            <img
-                              src="img/portfolio/engineering/asptitle.webp"
-                              alt="Screen printer"
-                            />
-                          </a>
-                          <div
-                            class="spotlight"
-                            data-src="img/portfolio/engineering/asp-3.webp"
-                          ></div>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col screen printer-->
-
-                      <!-- start col robot-->
-                      <div class="col-xs-12 col-sm-4 engineering">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/engineering/robot-2.webp"
-                            data-description="Writing.com Special Subscription Offer by adding Coupon Codes."
-                            >
-                            <h4>Writing9.com Special Offer</h4>
-                            <img
-                            src="img/portfolio/engineering/robot-title.webp"
-                            alt="Robots"
-                            />
-                          </a>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col robot-->
-
-                      <!-- start col PCB-->
-                      <div class="col-xs-12 col-sm-4 engineering">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/ptn.webp"
-                            data-description="Netflix Offer"
-                            >
-                            <h4>Netfix Offer</h4>
-                            <img
-                            src="img/portfolio/ptn.webp"
-                            alt="PCB"
-                            />
-                          </a>
-                          </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col PCB-->
-
-                      <!-- start col LAV_cal-->
-                      <div class="col-xs-12 col-sm-4 appsDevelopment">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/app/aav-2.webp"
-                            data-button="Download"
-                            data-button-href="https://github.com/dulaj93/LAV_calculator/releases/tag/LAV_calculator"
-                            data-description="Azure Students Portal with 100$ Credits."
-                            >
-                            <h4>Azure Portal with 100$ Credits</h4>
-                            <img
-                            src="img/portfolio/latle.webp"
-                            alt="LAV cal"
-                            />
-                          </a>
-                          </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col LAV_cal-->
-
-                      
-                      <!-- start col LAV_cal-->
-                      <div class="col-xs-12 col-sm-4 appsDevelopment">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/app/lav-2.webp"
-                            data-button="Download"
-                            data-button-href="https://github.com/dulaj93/LAV_calculator/releases/tag/LAV_calculator"
-                            data-description="Canva Pro Lifetime Subscription on your email."
-                            >
-                            <h4>Canva Pro : $3</h4>
-                            <img
-                            src="img/portfolio/cava.webp"
-                            alt="LAV cal"
-                            />
-                          </a>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col LAV_cal-->
-                      <!-- start col LAV_cal-->
-                      <div class="col-xs-12 col-sm-4 appsDevelopment">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/app/fav-4.webp"
-                            data-button="Download"
-                            data-button-href="https://github.com/dulaj93/LAV_calculator/releases/tag/LAV_calculator"
-                            data-description="All Autodesk Products are included here with this offer."
-                            >
-                            <h4>AutoDesk All Products</h4>
-                            <img
-                            src="img/portfolio/app/favi.webp"
-                            alt="LAV cal"
-                            />
-                          </a>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col LAV_cal-->
-
-                      <!-- start col portfolio-->
-                      <div class="col-xs-12 col-sm-4 websites">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/web/portfolio-1.webp"
-                            data-button="Visit!"
-                            data-button-href="https://dulaj93.github.io/"
-                            data-description="JetBrains Student Lisence auto renewing every year for FREE"
-                          >
-                            <h4>JetBrains All Products</h4>
-                            <img
-                              src="img/portfolio/portfo.webp"
-                              alt="Portfolio"
-                            />
-                          </a>                      
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col portfolio-->
-
-                      <!-- start col dashboard-->
-                      <div class="col-xs-12 col-sm-4 websites">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/web/dashboard-1.webp"
-                            data-description="Grammary Premium on your email"
-                            >
-                            <h4>Grammary Premium</h4>
-                            <img
-                            src="img/portfolio/web/dashboa.webp"
-                            alt="dashboard"
-                            />
-                          </a>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col dashboard-->
-
-                      <!-- start col dashboard-->
-                      <div class="col-xs-12 col-sm-4 websites">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/web/dashboard-1.webp"
-                            data-description="Other Personal Subscriptions"
-                            >
-                            <h4>Other Personal Subscriptions</h4>
-                            <img
-                            src="img/portfolio/web/othdl.webp"
-                            alt="dashboard"
-                            />
-                          </a>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col dashboard-->
-
-
-                      <!-- start col banner-->
-                      <div class="col-xs-12 col-sm-4 GraphicDesign">
-                        <!-- Start spotlight group -->
-                        <div class="spotlight-group" data-fit="cover" data-autohide="all">
-                          <a
-                            class="spotlight portfolio_single_content"
-                            data-src="img/portfolio/web/banle.webp"
-                          >
-                            <h4>Shared Subscription List</h4>
-                            <img
-                              src="img/portfolio/web/banle.webp"
-                              alt="banner"
-                            />
-                          </a>
-                        </div>
-                        <!-- End spotlight group -->
-                      </div>
-                      <!-- End col banner-->
-
-                    </div>
-                    <!-- End row -->
-                  </div>
-                  <!-- End portfolio content -->
-
-                </div>
-                <!-- End content area -->
-              </div>
-              <!-- End portfolio -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End portfolio -->      
-      
-      <!-- Begin about section -->
-      <section 
-        id="about-section" 
-        class="page bg-style1"
-        data-stellar-background-ratio="0.5"
-        style="background-image: url(img/sbg-about.webp)"
-      >
-        <!-- Begin page header-->
-        <div class="page-header-wrapper">
-          <div class="container">
-            <div
-              class="page-header text-center wow fadeInUp white-font"
-              data-wow-delay="0.3s"
-            >
-              <h2>HOW TO PAY and claim the Offer</h2>
-              <div class="devider"></div>
-              <!-- <p class="subtitle">little information</p> -->
-              <!-- <img src="img/photo-about.webp" alt="photo-about" /> -->
-            </div>
-          </div>
-        </div>
-        <!-- End page header-->
-
-        <!-- Begin rotate box-1 -->
-        <div class="rotate-box-1-wrapper">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                <a
-                  href="#portfolio-section"
-                  class="rotate-box-1 square-icon wow zoomIn page-scroll"
-                  data-wow-delay="0"
-                >
-                  <span class="rotate-box-icon"
-                    ><i class="fa fa-user"></i
-                  ></span>
-                  <div class="rotate-box-info">
-                    <!-- white-font -->
-                    <h4>Bank Transferring</h4>
-                    <p>
-                      Bank Name: Nation Trust Bank
-                    </p>
-                    <p>
-                      Account No: 205002746608
-                    </p>
-                    <p>
-                      Account name: G R D de Zoysa
-                    </p>
-                    <p>
-                      Branch : Head office / City Office, 001
-                    </p>
-                    <p>
-                      Swift Code : NTBCLKLX
-                    </p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-md-4">
-                <a href="#portfolio-section" class="rotate-box-1 square-icon wow zoomIn page-scroll"  data-wow-delay="0.2s">
-                  <span class="rotate-box-icon"><i class="fa fa-briefcase"></i></span>
-                  <div class="rotate-box-info">
-                    <h4>Crypto Payments</h4>
-                    <p>Binance Pay ID : 383640669 (Thimor)</p>
-                    <p>LiteCoin Address: LeZsBvZNSzgBXy91fnJRDM7TLpmV85KLTE</p>
-                  </div>
-                </a>
-              </div>
-
-              <div class="col-md-4">
-                <a href="#portfolio-section" class="rotate-box-1 square-icon wow zoomIn page-scroll" data-wow-delay="0.4s">
-                  <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
-                  <div class="rotate-box-info">
-                    <h4>Lanka QR</h4>
-                    <p>Valids Only Via Sri Lankan Banking Apps</p>
-                  </div>
-                  <div class="rotate-box-info">
-                    <span style="position: relative; top: -20px;">
-                        <a id="qrCodeLink" href="https://premiumsupportofficial.github.io/QRpay" style="color: rgb(188, 232, 122); font-weight: bold; display: none;">See QR Code</a>
-                        <button onclick="showQRCode()" style="position: relative; top: -20px;">Show QR Code</button>
-                    </span>
-                </div>
-                
-                <script>
-                    function showQRCode() {
-                        // Get the URL from the anchor tag
-                        var qrCodeUrl = document.getElementById("qrCodeLink").href;
-                        // Navigate to the URL
-                        window.location.href = qrCodeUrl;
-                    }
-                </script>
-                </a>
-              </div>
-
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- End rotate box-1 -->
-
-        <!-- <div class="extra-space-l"></div> -->
-
-        <!-- Begin page header-->
-        <div class="page-header-wrapper">
-          <div class="container">
-            <div
-              class="page-header-less text-center wow fadeInUp white-font"
-              data-wow-delay="0.3s"
-            >
-              <h4>How to claim the Offer</h4>
-            </div>
-          </div>
-        </div>
-        <!-- End page header-->
-
-        <!-- Begin Our Skills -->
-        <div class="our-skills">
-          <div class="container">
-            <div class="row white-font">
-              <div class="col-sm-6">
-                <div class="skill-bar wow slideInLeft" data-wow-delay="0.2s">
-                  <div class="progress-lebel">
-                    <h6>
-                      <p>
-                        <span>Contact us via Whatsapp <i class="fa fa-whatsapp"></i></span>
-                        <p><a href="https://wa.me/94713675980" style="color: #FFFF00; font-size: 16px;">Click here (+94) 713675980</a></p>
-                        <p>0713675980 Sri Lanka</p>
-                      </p>
-                    </h6>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-6">
-                <div class="skill-bar wow slideInRight" data-wow-delay="0.2s">
-                  <div class="progress-lebel">
-                    <h6 style="color: rgb(188, 232, 122); font-size: 16px;">Or any Social Network listed down here.</h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- End Our Skill -->
-      </section>
-      <!-- End about section -->
-
-      <!-- Begin social section -->
-      <section id="social-section">
-        <!-- Begin page header-->
-        <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a>
-        <!-- Scroll to top button -->
-        <div class="page-header-wrapper">
-          <div class="container">
-            <div
-              class="page-header text-center wow fadeInDown"
-              data-wow-delay="0.4s"
-            >
-              <h2>Contact US</h2>
-              <div class="devider"></div>
-              <p class="subtitle">Via any social network</p>
-            </div>
-          </div>
-        </div>
-        <!-- End page header-->
-
-        <div class="container">
-          <ul class="social-list">
-            <li>
-              <a
-                href="https://wa.me/94713675980"
-                target="_blank"
-                title="Whatsapp"
-                class="rotate-box-1 square-icon text-center wow zoomIn"
-                data-wow-delay="0.6s"
-                ><span class="rotate-box-icon"
-                  ><i class="fa fa-whatsapp"></i></span
-              ></a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#" class="nav_link">Home</a>
             </li>
-            <li>
-              <a
-                href="https://www.facebook.com/PremiumSupportOfficial/"
-                target="_blank"
-                title="Facebook"
-                class="rotate-box-1 square-icon text-center wow zoomIn"
-                data-wow-delay="0.3s"
-                ><span class="rotate-box-icon"
-                  ><i class="fa fa-facebook"></i></span
-              ></a>
+            <li class="nav_item">
+              <a href="/about" class="nav_link"
+                >About</a>
             </li>
-            <li>
-              <a
-                href="https://www.instagram.com/_premiumsupport"
-                target="_blank"
-                title="Instagram"
-                class="rotate-box-1 square-icon text-center wow zoomIn"
-                data-wow-delay="0.6s"
-                ><span class="rotate-box-icon"
-                  ><i class="fa fa-instagram"></i></span
-              ></a>
+            <li class="nav_item">
+              <a href="/AllProducts" class="nav_link">Products</a>
             </li>
-            <li>
-              <a
-                href="mailto:premiumsuprt@gmail.com"
-                target="_blank"
-                title="E-Mail"
-                class="rotate-box-1 square-icon text-center wow zoomIn"
-                data-wow-delay="0.4s"
-                ><span class="rotate-box-icon"
-                  ><i class="fa fa-envelope"></i></span
-              ></a>
+            <li class="nav_item">
+              <a href="#faqs" class="nav_link">FAQs</a>
             </li>
-            <li>
-              <a
-                href="http://weixin//contacts/profile/wxid_m01wclyb2e6222"
-                target="_blank"
-                title="WeChat"
-                class="rotate-box-1 square-icon text-center wow zoomIn"
-                data-wow-delay="0.4s"
-                ><span class="rotate-box-icon"
-                  ><i class="fa fa-wechat" ></i></span
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.snapchat.com/add/premium_support?share_id=qn7AEmYwiAs&locale=en-GB"
-                target="_blank"
-                title="Snapchat"
-                class="rotate-box-1 square-icon text-center wow zoomIn"
-                data-wow-delay="0.5s"
-                ><span class="rotate-box-icon"
-                  ><i class="fa fa-snapchat-ghost" ></i>
-                </span>
-              </a>
+            <li class="nav_item">
+              <a href="/contact" class="nav_link">Contact</a>
             </li>
           </ul>
-          <p> </p>
-          <nav>
-            <p style="margin: 20px 0;"></p>
-            <ul style="text-align: center; padding: 0; list-style-type: none;">
-              <li style="display: inline;">
-                <a class="subtitle" href="https://premiumsupportofficial.github.io/terms" style="text-decoration: none; font-weight: bold;">---See Business Terms & Refund Policy---</a>
-              </li>
-            </ul>
-            <p style="margin: 10px 0;"></p>
-            <ul style="text-align: center; padding: 0; list-style-type: none;">
-              <li style="display: inline;">
-                <a class="subtitle" href="https://premiumsupportofficial.github.io/privacy-policy" style="text-decoration: none; font-weight: bold;">---See Privacy Policy---</a>
-              </li>
-            </ul>
-          </nav>
+
+          <div class="nav_close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav_btns">
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--========== PRELOADER ===========-->
+    <section class="screen_loading flex_center flex_column">
+      <img
+        class="loading_logo"
+        src="./assets/svg/logo.svg"
+        width="44"
+        height="41"
+        alt="Logo"
+      />
+      <div class="loading"></div>
+    </section>
+
+    <!--========== MAIN ===========-->
+    <main class="main">
+      <!--========== HOME ===========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">
+              Subscription <br />
+              <span class="home_title-secondary">Offers</span>
+            </h1>
+            <p class="home_subtitle">
+              We facilitate the enhancement of your account to Premium or Pro versions 
+              through <span class="highlighted">exclusive coupon codes, voucher links, and invitation offers</span>.
+            </p>
+            <p class="home_subtitle">
+              Powered by <span class="highlighted">CONFIGURESEL</span>.
+            </p>
+            <div class="home_buttons">
+              <a
+                href="/contact"
+                class="button"
+                >Contact Us</a
+              >
+              <a href="/AllProducts" class="button_secondary"
+                >Explore Products
+                <i class="bx bx-right-arrow-alt button_icon"></i
+              ></a>
+            </div>
+            <div class="home_company">
+              <img
+                src="./assets/svg/home/fast.svg"
+                width="70"
+                height="18"
+                alt="Sony Logo"
+              />
+              <img
+                src="./assets/svg/home/genuine.svg"
+                width="70"
+                height="18"
+                alt="Sony Logo"
+              />
+              <img
+                src="./assets/svg/home/hand.svg"
+                width="70"
+                height="18"
+                alt="hand"
+              />
+              <img
+                src="./assets/svg/home/right.svg"
+                width="70"
+                height="18"
+                alt="Sony Logo"
+              />
+            </div>
+          </div>
+          <img
+            src="./assets/img/home/controll.webp"
+            alt="Controller"
+            class="home_img"
+          />
         </div>
       </section>
-      <!-- End social section -->
-      <footer>
-      <div class="footer-content">
-        <div class="logo">
-          <img src="img/prepsq.webp" alt="Logo">
+
+      <!--========== PRODUTS ===========-->
+      <section class="produts_container bd-container bd-grid">
+        <div class="produts_data">
+          <h1 class="produts_title">
+            Best Selling <span class="produts_title-2">Offers</span>
+          </h1>
+          <p class="produts_subtitle">
+            The activation Method is unique in each products
+          </p>
+          <div class="produts_list-container">
+            <div class="produts_list">
+              <img
+                class="produts_img"
+                src="./assets/img/home/Linkedin_Premium.webp"
+                width="230"
+                height="230"
+                alt="Linkedin Premium"
+              />
+              <h2 class="produts_list-title">LinkedIn PREMIUM</h2>
+              <div class="produts_evaluation">
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <span class="produts_evaluation-title">(94)</span>
+              </div>
+              <span class="produts_value">From Rs 5500 | $18</span>
+              <div class="produts_buy">
+                <img
+                  class="produts_buy-img"
+                  src="./assets/svg/decoration/rectangle_secondary.svg"
+                  width="64"
+                  height="62"
+                  alt="Recatangle"
+                />
+                <a class="produts_button" href="https://premiumsupport.tech/Linkedin">
+                  <i class="bx bx-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="produts_list ps5_list">
+              <img
+                class="produts_img"
+                src="./assets/img/home/coursera_plus.webp"
+                width="305"
+                height="355"
+                alt="Coursera PLUS"
+              />
+              <h2 class="produts_list-title">Coursera PLUS</h2>
+              <div class="produts_evaluation">
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <span class="produts_evaluation-title">(73)</span>
+              </div>
+              <span class="produts_value">Rs 7500 | $25</span>
+              <div class="produts_buy">
+                <img
+                  class="produts_buy-img"
+                  src="./assets/svg/decoration/rectangle_secondary.svg"
+                  width="64"
+                  height="62"
+                  alt="Recatangle"
+                />
+                <a class="produts_button" href="https://premiumsupport.tech/CourseraPlus">
+                  <i class="bx bx-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="produts_list ps5_list">
+              <img
+                class="produts_img"
+                src="./assets/img/home/canva.webp"
+                width="226"
+                height="212"
+                alt="Joystick"
+              />
+              <h2 class="produts_list-title">Canva Pro Edu</h2>
+              <div class="produts_evaluation">
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <span class="produts_evaluation-title">(68)</span>
+              </div>
+              <span class="produts_value">Rs 1000 | $3</span>
+              <div class="produts_buy">
+                <img
+                  class="produts_buy-img"
+                  src="./assets/svg/decoration/rectangle_secondary.svg"
+                  width="64"
+                  height="62"
+                  alt="Recatangle"
+                />
+                <a class="produts_button" href="#">
+                  <i class="bx bx-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="produts_list ps5_list">
+              <img
+                class="produts_img"
+                src="./assets/img/home/github.webp"
+                width="223"
+                height="212"
+                alt="Joystick"
+              />
+              <h2 class="produts_list-title">GitHub SDP</h2>
+              <div class="produts_evaluation">
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <span class="produts_evaluation-title">(41)</span>
+              </div>
+              <span class="produts_value">Rs 9500 | $30</span>
+              <div class="produts_buy">
+                <img
+                  class="produts_buy-img"
+                  src="./assets/svg/decoration/rectangle_secondary.svg"
+                  width="64"
+                  height="62"
+                  alt="Recatangle"
+                />
+                <a class="produts_button" href="#">
+                  <i class="bx bx-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="produts_list ps5_list">
+              <img
+                class="produts_img"
+                src="./assets/img/home/autodesk.webp"
+                width="229"
+                height="215"
+                alt="Joystick"
+              />
+              <h2 class="produts_list-title">AutoDesk</h2>
+              <div class="produts_evaluation">
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <span class="produts_evaluation-title">(26)</span>
+              </div>
+              <span class="produts_value">Rs 11000 | $36</span>
+              <div class="produts_buy">
+                <img
+                  class="produts_buy-img"
+                  src="./assets/svg/decoration/rectangle_secondary.svg"
+                  width="64"
+                  height="62"
+                  alt="Recatangle"
+                />
+                <a class="produts_button" href="#">
+                  <i class="bx bx-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="produts_list ps5_list">
+              <img
+                class="produts_img"
+                src="./assets/img/home/azure.webp"
+                width="226"
+                height="212"
+                alt="Joystick"
+              />
+              <h2 class="produts_list-title">Azure Portal</h2>
+              <div class="produts_evaluation">
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <img
+                  src="./assets/img/decoration/star.webp"
+                  width="20"
+                  height="20"
+                  alt="Star"
+                />
+                <span class="produts_evaluation-title">(23)</span>
+              </div>
+              <span class="produts_value">Rs 7500 | $25</span>
+              <div class="produts_buy">
+                <img
+                  class="produts_buy-img"
+                  src="./assets/svg/decoration/rectangle_secondary.svg"
+                  width="64"
+                  height="62"
+                  alt="Recatangle"
+                />
+                <a class="produts_button" href="#">
+                  <i class="bx bx-plus"></i
+                ></a>
+              </div>
+            </div>
+            <div class="home_buttons">
+              <a href="/AllProducts" class="button_secondary";
+                >SEE ALL Produts
+                <i class="bx bx-right-arrow-alt button_icon"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <div class="footer-text">
-          <p>&copy; 2024 ~ Made by Premium Support</p>
+      </section>
+
+      <!--========== ABOUT ===========-->
+      <section>
+        <div class="about_container bd-container bd-grid">
+          <img
+            class="about_img"
+            src="./assets/img/home/controller21.webp"
+            width="413"
+            height="524"
+            alt="Controllers PlayStation"
+          />
+          <div class="about_data">
+            <h1 class="about_title">
+              Payment<span class="about_title-secondary"> Methods</span>
+            </h1>
+            <p class="about_subtitle">
+              We accept your payment in any of following catogories,
+              When your transter your may mention your name and
+              platform you want to buy as in the remark section.
+            </p>
+            <ul class="about_list">
+              <li>Online Bank transfers</li>
+              <li>Crypto Payments</li>
+              <li>UPI</li>
+              <li>Wise</li>
+              <li>Payoneer</li>
+            </ul>
+            <a href="/Payments" class="button"
+              >Shop Now <i class="bx bx-right-arrow-alt about_icon"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--========== FUNCTIONS ===========-->
+      <section class="functions_container bd-container bd-grid">
+        <div class="functions_data">
+          <h1 class="functions_title">
+            Offer Delivery <span class="functions_title-secondary">Methods</span>
+          </h1>
+          <p class="functions_subtitle">
+            You can send payment reciept to any of following platforms
+            and Will be delivered the offer there privately.
+          </p>
+          <div class="functions_list-container">
+            <div class="functions_list">
+              <img src="./assets/svg/home/WhatsApp_icon.svg" alt="WhatsApp" class="functions_icons" href="https://wa.me/94713675980" />
+              <span class="functions_icons-title">WhatsApp</span>
+              <img
+                class="functions_img"
+                src="./assets/img/decoration/description_controller.webp"
+                width="106"
+                height="35"
+                alt="Progress Bar"
+              />
+            </div>
+            <div class="functions_list">
+              <img src="./assets/svg/home/email.svg" alt="Email" class="functions_icons" href="mailto:premiumsuppores@outlook.com" />
+              <span class="functions_icons-title">E-Mail</span>
+              <img
+                class="functions_img"
+                src="./assets/img/decoration/description_controller.webp"
+                width="106"
+                height="45"
+                alt="Progress Bar"
+              />
+            </div>
+            <div class="functions_list">
+              <img src="./assets/svg/home/msg.svg" alt="messenger" class="functions_icons" href="https://www.facebook.com/PremiumSupportOfficial/"/>
+              <span class="functions_icons-title">Messenger</span>
+              <img
+                class="functions_img"
+                src="./assets/img/decoration/description_controller.webp"
+                width="106"
+                height="35"
+                alt="Progress Bar"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!--========== FAQS ===========-->
+      <section class="faqs section" id="faqs">
+        <p class="faqs_title-center faqs_subtitle container">
+          Service Reliablity and customer Satifaction
+        </p>
+        <h2 class="faqs_title-center faqs_title container">
+          Frequenly Asked <span class="faqs_title-secondary">Question</span>
+        </h2>
+        <p class="faqs_title-center faqs_subtitle-secondary container">
+          We know you have some questions in mind,  <br />
+          we have tried to list the most important ones.
+        </p>
+
+        <div class="faqs_container container grid">
+          <div class="faqs_group">
+            <div class="faqs_item">
+              <header class="faqs_header">
+                <h3 class="faqs_item-title">
+                  How can I see feedbacks from your previous customers?
+                </h3>
+                <i class="bx bx-plus faqs_icon"></i>
+              </header>
+
+              <div class="faqs_content">
+                <p class="faqs_description">
+                  You click <a href="https://www.facebook.com/PremiumSupportOfficial/" class="button"
+                  >Here <i class="bx bx-right-arrow-alt about_icon"></i
+                ></a> to see reviews in our facebook page 
+                </p>
+              </div>
+            </div>
+
+            <div class="faqs_item">
+              <header class="faqs_header">
+                <h3 class="faqs_item-title">How can I get in touch?</h3>
+                <i class="bx bx-plus faqs_icon"></i>
+              </header>
+
+              <div class="faqs_content">
+                <p class="faqs_description">
+                  You can ask to join our WhatsApp group that notify instant updates.
+                  You can follow our offical facebook, instagram and this website.
+                </p>
+              </div>
+            </div>
+
+            <div class="faqs_item">
+              <header class="faqs_header">
+                <h3 class="faqs_item-title">Do you have any discounts?</h3>
+                <i class="bx bx-plus faqs_icon"></i>
+              </header>
+
+              <div class="faqs_content">
+                <p class="faqs_description">
+                  Yes, Discounted Prices are mentioned below each products.
+                  Please note that prices change time to time.
+                </p>
+              </div>
+            </div>
+            <div class="faqs_item">
+              <header class="faqs_header">
+                <h3 class="faqs_item-title">What guarantee do I have?</h3>
+                <i class="bx bx-plus faqs_icon"></i>
+              </header>
+
+              <div class="faqs_content">
+                <p class="faqs_description">
+                  We provide the subscription with warranty and user should not violate 
+                  any policies or deactivate the subscription manually. For some
+                  platforms, The subscription can be verifies while some don't.
+                </p>
+              </div>
+            </div>
+
+            <div class="faqs_item">
+              <header class="faqs_header faqs_detail">
+                <h3 class="faqs_item-title">Can I pay in installments?</h3>
+                <i class="bx bx-plus faqs_icon"></i>
+              </header>
+
+              <div class="faqs_content">
+                <p class="faqs_description faqs_detail-secondary">
+                  No, But we can provide installments for some platforms like ChatGPT 4, Netflix etc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--========== FOOTER ===========-->
+    <hr class="hr_footer" />
+    <footer class="footer section">
+      <div class="footer_container container grid">
+        <div class="footer_content">
+          <a href="#" class="footer_logo">
+            <img
+              src="assets/svg/logo.svg"
+              alt="Logo PlayStation"
+              width="44"
+              height="41"
+              class="footer_logo-img"
+            />
+            Subscription Offers
+          </a>
+
+          <p class="footer_description">
+            Subscription Offers was established in 2023 <br />
+            to provide discounts on various platforms. <br />
+            We provide reliable service with service warranty.
+          </p>
+
+          <div class="footer_social">
+            <a
+              href="https://www.facebook.com/PremiumSupportOfficial/"
+              target="_blank"
+              class="footer_social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com/_PremiumSupport"
+              target="_blank"
+              class="footer_social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/company/PremiumSupport/"
+              target="_blank"
+              class="footer_social-link"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Services</h3>
+
+          <ul class="footer_links">
+            <li>
+              <a href="./AllProduts" class="footer_link"
+                >Produts</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Company</h3>
+
+          <ul class="footer_links">
+            <li>
+              <a href="#home" class="footer_link">Home</a>
+            </li>
+            <li>
+              <a href="/about" class="footer_link"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#faqs" class="footer_link">FAQs</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Suport</h3>
+
+          <ul class="footer_links">
+            <li>
+              <a href="/Terms-of-Service" class="footer_link"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a href="/Privacy" class="footer_link"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="/contact" class="footer_link"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
+      <hr class="hr_footer-secondary" />
+      <span class="footer_copy"
+        >Copyright 2024 © Premium Support - All Rights Reserved</span
+      >
     </footer>
-  
-    </div>
-    <!-- body ends -->
-
-    <!-- Plugins JS -->
-    <script src="inc/jquery/jquery-1.11.1.min.js"></script>
-    <script src="inc/bootstrap/js/bootstrap.min.js"></script>
-    <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="inc/stellar/js/jquery.stellar.min.js"></script>
-    <script src="inc/animations/js/wow.min.js"></script>
-    <script src="inc/waypoints.min.js"></script>
-    <script src="inc/isotope.pkgd.min.js"></script>
-    <script src="inc/classie.js"></script>
-    <script src="inc/jquery.easing.min.js"></script>
-    <script src="inc/jquery.counterup.min.js"></script>
-    <script src="inc/smoothscroll.js"></script>
-
-    <!-- Theme JS -->
-    <script src="js/theme.js"></script>
-
     <!-- WhatsApp -->
     <div class="whatsapp-float">
-        <a href="https://wa.me/94713675980" target="_blank">
-            <img src="img/whatsapp-icon.png" alt="WhatsApp Icon">
+        <a href="https://wa.me/94702396460" target="_blank">
+            <img src="assets/svg/home/WhatsApp_icon.svg" alt="WhatsApp Icon">
         </a>
     </div>
-    
-  </body>
+    <!--========== SCROLL UP ===========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup_icon"></i>
+    </a>
+    <!--========== SCROLLREVEAL ===========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--========== GSAP ===========-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+      integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
 
+      document.addEventListener('DOMContentLoaded', () => {
+        // PRELOADER
+
+        var tl1 = gsap.timeline();
+
+        tl1.to('.screen_loading', {
+          duration: 1,
+          opacity: 0,
+          delay: 3,
+          ease: 'power4.out',
+        });
+      });
+    </script>
+    <!--========== JAVASCRIPT ===========-->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
